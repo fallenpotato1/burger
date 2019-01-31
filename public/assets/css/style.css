@@ -1,0 +1,54 @@
+button {
+    background-color: black;
+    color: white;
+}
+
+.wholeThing {
+    height: 100vw;
+    width: 100%;
+}
+
+.topPart {
+    height: 10%;
+    width: 100%;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    border: 1px black solid;
+}
+.bottomPart {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftSide {
+    width: 25%;
+    height: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center {
+    width: 50%;
+    height: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rightSide {
+    width: 25%;
+    height: 100%;
+    margin: 0;
+}
+
+.devourButton {
+    height: 10;
+    width: 25%;
+    margin: auto;
+}
